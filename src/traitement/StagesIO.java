@@ -68,12 +68,7 @@ public final class StagesIO {
 
             }
 
-
         }
-
-        System.out.println(stagesMap.size());
-        ligne = null;
-
 
         while ((ligne = fichierEtudiants.readLine()) != null){
             StringTokenizer tok = new StringTokenizer(ligne, "#");
@@ -100,11 +95,8 @@ public final class StagesIO {
                         classe = classesMap.get(classe.hashCode());
                     }
 
-
-
                     for(String comp1 : comp.split(","))
                         etudiant.addCompetence(Competence.valueOf(comp1));
-
 
                     if(stagesMap.containsKey(nom_stage)){
                         Stage s = stagesMap.get(nom_stage);
@@ -116,6 +108,7 @@ public final class StagesIO {
                     if(enseignantsMap.containsKey(tuteur.getNom())){
                         tuteur = enseignantsMap.get(tuteur.getNom());
                     }
+
                     etudiant.setTuteur(tuteur);
 
                     etusMap.put(etudiant.getNom(),etudiant);
