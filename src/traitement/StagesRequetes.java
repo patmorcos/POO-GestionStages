@@ -3,16 +3,17 @@ package traitement;
 import contrat.Competence;
 import contrat.Etudiant;
 import contrat.Stage;
+import model.Classe;
 
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public final class StagesRequetes {
 
     private final StagesIO io;
 
     public StagesRequetes(StagesIO io) {
-        this.io = null;
+        this.io = io;
     }
 
     /**
@@ -22,7 +23,9 @@ public final class StagesRequetes {
      * @return l'ensemble de ses étudiants
      */
     public Set<contrat.Etudiant> etudiantsDeLEnseignant(String nom) {
-        return null;
+         return io.getEtudiants().stream()
+                .filter(etudiant -> etudiant.getTuteur().getNom().equals(nom))
+                .collect(Collectors.toSet());
     }
 
     /**
@@ -32,7 +35,10 @@ public final class StagesRequetes {
      * @return l'ensemble des enseignants qui encadrent des stages de cette compétence
      */
     public Set<contrat.Enseignant> enseignantEncadreCompetence(Competence comp) {
-        return null;
+        return io.getEtudiants().stream()
+                .filter(etudiant->etudiant.getCompetences().contains(comp))
+                .map(e->e.getTuteur())
+                .collect(Collectors.toSet());
     }
 
     /**
@@ -43,6 +49,31 @@ public final class StagesRequetes {
      * selon ses compétence
      */
     public Map<Etudiant, Set<Stage>> etudiantsMatchStagesNonAffectes() {
-        return null;
+        Set<Stage> stagesNA = io.getStages().stream().filter(s->s.getStatut().equals(contrat.Statut.NON_AFFECTE)).collect(Collectors.toSet());
+        List<Etudiant> etudiants = io.getEtudiants();
+        Set<Etudiant> etudiantNA = io.getEtudiants().stream().filter(e->e.getStages().size()==0).collect(Collectors.toSet());
+
+        //On check les étudiants qui ont plusieurs parcours
+        for(Etudiant etu :etudiants) {
+            int parcours = 0;
+            for (contrat.Classe c : io.getClasses())
+                if (c.getEtudiants().contains(etu)) {
+                    parcours++;
+                    if (parcours > 1 && etu.getStages().size()<=1)
+                        etudiantNA.add(etu);
+                }
+        }
+
+        Iterator etudiant = etudiantNA.iterator();
+        Map<Etudiant,Set<Stage>> mapping = new HashMap<>();
+
+        while(etudiant.hasNext())
+        {
+            Etudiant etu = (Etudiant)etudiant.next();
+            List<Competence> competences = etu.getCompetences();
+            mapping.put(etu,stagesNA.stream().filter(s->competences.contains(s.getCompetence())).collect(Collectors.toSet()));
+        }
+
+        return mapping;
     }
 }

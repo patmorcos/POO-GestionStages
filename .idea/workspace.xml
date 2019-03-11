@@ -2,29 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b828727-2f06-497d-8b77-285df6a3c20e" name="Default Changelist" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/gestionstages-student/contrat/Classe.class" afterPath="$PROJECT_DIR$/out/production/gestionstages-student/contrat/Classe.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/gestionstages-student/contrat/Enseignant.class" afterPath="$PROJECT_DIR$/out/production/gestionstages-student/contrat/Enseignant.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/gestionstages-student/contrat/Entreprise.class" afterPath="$PROJECT_DIR$/out/production/gestionstages-student/contrat/Entreprise.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/gestionstages-student/contrat/Etudiant.class" afterPath="$PROJECT_DIR$/out/production/gestionstages-student/contrat/Etudiant.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/gestionstages-student/contrat/Stage.class" afterPath="$PROJECT_DIR$/out/production/gestionstages-student/contrat/Stage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/gestionstages-student/model/Classe.class" afterPath="$PROJECT_DIR$/out/production/gestionstages-student/model/Classe.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/gestionstages-student/model/Enseignant.class" afterPath="$PROJECT_DIR$/out/production/gestionstages-student/model/Enseignant.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/gestionstages-student/model/Entreprise.class" afterPath="$PROJECT_DIR$/out/production/gestionstages-student/model/Entreprise.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/gestionstages-student/model/Etudiant.class" afterPath="$PROJECT_DIR$/out/production/gestionstages-student/model/Etudiant.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/gestionstages-student/model/Stage.class" afterPath="$PROJECT_DIR$/out/production/gestionstages-student/model/Stage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/gestionstages-student/traitement/StagesIO.class" afterPath="$PROJECT_DIR$/out/production/gestionstages-student/traitement/StagesIO.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/contrat/Classe.java" afterPath="$PROJECT_DIR$/src/contrat/Classe.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/contrat/Enseignant.java" afterPath="$PROJECT_DIR$/src/contrat/Enseignant.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/contrat/Entreprise.java" afterPath="$PROJECT_DIR$/src/contrat/Entreprise.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/contrat/Etudiant.java" afterPath="$PROJECT_DIR$/src/contrat/Etudiant.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/contrat/Stage.java" afterPath="$PROJECT_DIR$/src/contrat/Stage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Classe.java" afterPath="$PROJECT_DIR$/src/model/Classe.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Enseignant.java" afterPath="$PROJECT_DIR$/src/model/Enseignant.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Entreprise.java" afterPath="$PROJECT_DIR$/src/model/Entreprise.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Etudiant.java" afterPath="$PROJECT_DIR$/src/model/Etudiant.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Stage.java" afterPath="$PROJECT_DIR$/src/model/Stage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/traitement/StagesIO.java" afterPath="$PROJECT_DIR$/src/traitement/StagesIO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/traitement/StagesRequetes.java" afterPath="$PROJECT_DIR$/src/traitement/StagesRequetes.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Etudiant.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Etudiant.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/Etudiant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="215">
+              <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,18 +71,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Classe.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contrat/Classe.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+            <state relative-caret-position="328">
+              <caret line="33" column="50" lean-forward="true" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -112,7 +81,7 @@
       <file leaf-file-name="Stage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/Stage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="52">
               <caret line="33" column="49" lean-forward="false" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -124,8 +93,20 @@
       <file leaf-file-name="StagesIO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/traitement/StagesIO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2266">
+            <state relative-caret-position="226">
               <caret line="181" column="0" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StagesRequetes.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/traitement/StagesRequetes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="54" column="59" lean-forward="false" selection-start-line="54" selection-start-column="59" selection-end-line="54" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -178,7 +159,6 @@
         <option value="$PROJECT_DIR$/src/contrat/Competence.java" />
         <option value="$PROJECT_DIR$/src/contrat/Filiere.java" />
         <option value="$PROJECT_DIR$/src/contrat/Niveau.java" />
-        <option value="$PROJECT_DIR$/src/traitement/StagesRequetes.java" />
         <option value="$PROJECT_DIR$/tests/model/StageTest.java" />
         <option value="$PROJECT_DIR$/src/traitement/StagesIO.java" />
         <option value="$PROJECT_DIR$/src/contrat/Stage.java" />
@@ -192,6 +172,7 @@
         <option value="$PROJECT_DIR$/src/model/Stage.java" />
         <option value="$PROJECT_DIR$/src/model/Classe.java" />
         <option value="$PROJECT_DIR$/src/model/Etudiant.java" />
+        <option value="$PROJECT_DIR$/src/traitement/StagesRequetes.java" />
       </list>
     </option>
   </component>
@@ -495,7 +476,7 @@
       <workItem from="1548081029819" duration="6166000" />
       <workItem from="1551713182782" duration="4105000" />
       <workItem from="1552249000478" duration="18345000" />
-      <workItem from="1552272484268" duration="1019000" />
+      <workItem from="1552272484268" duration="2064000" />
     </task>
     <servers />
   </component>
@@ -523,7 +504,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34885000" />
+    <option name="totallyTimeSpent" value="35930000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="6" />
@@ -902,16 +883,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/traitement/StagesRequetes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/contrat/Etudiant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -952,16 +923,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/traitement/StagesIO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2266">
-          <caret line="181" column="0" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Entreprise.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -972,28 +933,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Enseignant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="48" column="53" lean-forward="false" selection-start-line="48" selection-start-column="53" selection-end-line="48" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Stage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="33" column="49" lean-forward="false" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1012,8 +955,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Etudiant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="215">
+          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Stage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="33" column="49" lean-forward="false" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/traitement/StagesIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="181" column="0" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="33" column="50" lean-forward="true" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/traitement/StagesRequetes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="54" column="59" lean-forward="false" selection-start-line="54" selection-start-column="59" selection-end-line="54" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
