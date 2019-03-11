@@ -15,4 +15,6 @@ public interface Entreprise {
     Set<Stage> getStages();
 
     boolean addStage(Stage stage);
+
+    String toString();
 }

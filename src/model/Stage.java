@@ -25,7 +25,16 @@ public final class Stage implements contrat.Stage {
         this.entreprise = entreprise;
     }
 
-
+    @Override
+    public String toString(){
+        return "Stage{" +
+                "identifiant='" + identifiant + '\'' +
+                ", titre='" + titre + '\'' +
+                ", competence=" + competence.toString() +
+                ", niveau=" + niveau.toString() +
+                ", statut=" + statut.toString() +
+                '}';
+    }
 
     @Override
     public String getIdentifiant() {

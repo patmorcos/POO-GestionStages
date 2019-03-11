@@ -119,7 +119,6 @@ public final class StagesIO {
                     classe.addEtudiants(etudiant);
                     classesMap.put(classe.hashCode(),classe);
 
-
             }
 
         }

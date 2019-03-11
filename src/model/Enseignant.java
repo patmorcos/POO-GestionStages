@@ -46,7 +46,7 @@ public final class Enseignant implements contrat.Enseignant {
     public String toString() {
         return "Enseignant{" +
                 "nom='" + nom + '\'' +
-                ", etudiants=" + etudiants +
+                ", etudiants=" + etudiants.toString() +
                 '}';
     }
 }

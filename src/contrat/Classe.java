@@ -18,4 +18,6 @@ public interface Classe {
     boolean addEtudiants(contrat.Etudiant etu);
 
     boolean removeEtudiant(contrat.Etudiant etu);
+
+    String toString();
 }

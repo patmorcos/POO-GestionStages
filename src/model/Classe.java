@@ -68,6 +68,15 @@ public final class Classe implements contrat.Classe {
     }
 
     @Override
+    public String toString() {
+        return "Classe{" +
+                "niveau=" + niveau.toString() +
+                ", filiere=" + filiere.toString() +
+                ", annee='" + annee + '\'' +
+                '}';
+    }
+
+    @Override
     public int hashCode() {
         return Objects.hash(niveau, filiere, annee);
     }

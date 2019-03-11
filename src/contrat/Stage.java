@@ -23,4 +23,6 @@ public interface Stage {
     Statut getStatut();
 
     void setStatut(Statut statut);
+
+    String toString();
 }

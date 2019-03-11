@@ -45,4 +45,11 @@ public final class Entreprise implements contrat.Entreprise {
     public boolean addStage(Stage stage) {
         return stages.add(stage);
     }
+
+    @Override
+    public String toString() {
+        return "Entreprise{" +
+                "nom='" + nom + '\'' +
+                '}';
+    }
 }

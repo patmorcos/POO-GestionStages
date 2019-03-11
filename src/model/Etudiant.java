@@ -14,6 +14,16 @@ public final class Etudiant implements contrat.Etudiant {
     private contrat.Enseignant tuteur;
 
 
+    @Override
+    public String toString() {
+        return "Etudiant{" +
+                "nom='" + nom + '\'' +
+                ", stages=" + stages.toString() +
+                ", competences=" + competences.toString() +
+
+                '}';
+    }
+
     public Etudiant(String nom){
         this.nom = nom;
         this.stages = new HashSet<Stage>();

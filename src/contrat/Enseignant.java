@@ -14,4 +14,6 @@ public interface Enseignant {
     Set<contrat.Etudiant> getEtudiants();
 
     boolean addEtudiant(contrat.Etudiant etu);
+
+    String toString();
 }

@@ -21,4 +21,6 @@ public interface Etudiant {
     contrat.Enseignant getTuteur();
 
     void setTuteur(contrat.Enseignant tuteur);
+
+    String toString();
 }
