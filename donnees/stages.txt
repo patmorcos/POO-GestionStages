@@ -1,0 +1,7 @@
+S145#Web App Titan 1#WEB#L3#Entreprise WebTitan#VALIDE
+S155#Web App Awesome#WEB#L3#Entreprise WebGourou#VALIDE
+S234#Web App Titan 2#WEB#M1#Entreprise Webtitan#EN_COURS
+S246#Support EntApp Zest#AMOA#M1#Entreprise Zappy#EN_COURS
+S267#Mobile App Gafa 1#MOBILE#M1#Entreprise Tafag#NON_AFFECTE
+S347#Chef Projet App Gafa 2#AMOE#M2#Entreprise FitSec#NON_AFFECTE
+S361#Security App Gafa 2#SECURITE#M2#Entreprise FitSec#NON_AFFECTE

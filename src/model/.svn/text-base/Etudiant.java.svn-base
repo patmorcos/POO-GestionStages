@@ -1,0 +1,151 @@
+package com.myapp.bean;
+
+import java.util.Date;
+
+/**
+ * .
+ * Bean pour un �tudiant
+ *
+ * @author Astrid
+ *
+ */
+public class Etudiant {
+
+    private int nCandidat;
+    private int nEtudiant;
+    private String nom;
+    private String prenom;
+    private String adresse;
+    private String telephone;
+    private Date dateNaissance;
+    private String login;
+    private String mdp;
+    private String typeFormation;
+    private int niveau;
+    private String mail;
+    private String promotion;
+
+    public Etudiant() {
+        this.nCandidat = 0;
+        this.nEtudiant = 0;
+        this.nom = " ";
+        this.prenom = " ";
+        this.adresse = " ";
+        this.telephone = " ";
+        this.dateNaissance = null;
+        this.login = " ";
+        this.mdp = " ";
+        this.typeFormation = "";
+        this.niveau = 0;
+        this.mail = " ";
+    }
+
+    public String getMail() {
+        return mail;
+    }
+
+    public void setMail(String mail) {
+        this.mail = mail;
+    }
+
+    public int getnEtudiant() {
+        return nEtudiant;
+    }
+
+    public void setnEtudiant(int nEtudiant) {
+        this.nEtudiant = nEtudiant;
+    }
+
+    public String getTypeFormation() {
+        return typeFormation;
+    }
+
+    public String getPromotion() {
+        return promotion;
+    }
+
+    public void setPromotion(String promotion) {
+        this.promotion = promotion;
+    }
+
+    public void setTypeFormation(String typeFormation) {
+        this.typeFormation = typeFormation;
+    }
+
+    public int getNiveau() {
+        return niveau;
+    }
+
+    public void setNiveau(int niveau) {
+        this.niveau = niveau;
+    }
+
+    public int getnCandidat() {
+        return nCandidat;
+    }
+
+    public void setnCandidat(int nCandidat) {
+        this.nCandidat = nCandidat;
+    }
+
+    public String getNom() {
+        return nom;
+    }
+
+    public void setNom(String nom) {
+        this.nom = nom;
+    }
+
+    public String getPrenom() {
+        return prenom;
+    }
+
+    public void setPrenom(String prenom) {
+        this.prenom = prenom;
+    }
+
+    public String getAdresse() {
+        return adresse;
+    }
+
+    public void setAdresse(String adresse) {
+        this.adresse = adresse;
+    }
+
+    public String getTelephone() {
+        return telephone;
+    }
+
+    public void setTelephone(String telephone) {
+        this.telephone = telephone;
+    }
+
+    public Date getDateNaissance() {
+        return (Date) dateNaissance.clone();
+    }
+
+    public void setDateNaissance(Date dateNaissance) {
+        this.dateNaissance = (Date) dateNaissance.clone();
+    }
+
+    public String getLogin() {
+        return login;
+    }
+
+    public void setLogin(String login) {
+        this.login = login;
+    }
+
+    public String getMdp() {
+        return mdp;
+    }
+
+    public void setMdp(String mdp) {
+        this.mdp = mdp;
+    }
+
+    @Override
+    public String toString() {
+        return "Etudiant{" + "nCandidat=" + nCandidat + ", nom=" + nom + ", prenom=" + prenom + ", typeFormation=" + typeFormation + ", niveau=" + niveau + '}';
+    }
+}

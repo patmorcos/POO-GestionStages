@@ -1,0 +1,166 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.myapp.bean;
+
+import java.util.Date;
+
+/**
+ *
+ * @author Fabien
+ */
+public class InfosStage {
+    private String titre;
+    private String activite;
+    private String competences;
+    private Date debut;
+    private Date fin;
+    private int duree;
+    private Date dateSignatureC;
+    private String accueil;
+    private String adresse;
+    private String telephoneEntreprise;
+    private String nomTuteur;
+    private String prenomTuteur;
+    private String telephoneTuteur;
+    private String emailTuteur;
+
+    public InfosStage() {
+        this.titre = " ";
+        this.activite = " ";
+        this.competences = " ";        
+        this.accueil = " ";
+        this.adresse = " ";
+        this.telephoneEntreprise = " ";
+        this.nomTuteur = " ";
+        this.prenomTuteur = " ";
+        this.telephoneTuteur = " ";
+        this.emailTuteur = " ";
+        this.debut=null;
+        this.fin=null;
+        this.dateSignatureC=null;
+    }
+    
+    
+
+    public String getTitre() {
+        return titre;
+    }
+
+    public void setTitre(String titre) {
+        this.titre = titre;
+    }
+
+    public Date getDebut() {
+        return debut;
+    }
+
+    public void setDebut(Date debut) {
+        this.debut = debut;
+    }
+
+    public int getDuree() {
+        return duree;
+    }
+
+    public void setDuree(int duree) {
+        this.duree = duree;
+    }
+
+    
+    
+    public String getActivite() {
+        return activite;
+    }
+
+    public void setActivite(String activite) {
+        this.activite = activite;
+    }
+
+    public String getCompetences() {
+        return competences;
+    }
+
+    public Date getFin() {
+        return fin;
+    }
+
+    public void setFin(Date fin) {
+        this.fin = fin;
+    }
+
+
+    public Date getDateSignatureC() {
+        return dateSignatureC;
+    }
+
+    public void setDateSignatureC(Date dateSignatureC) {
+        this.dateSignatureC = dateSignatureC;
+    }
+    
+    
+
+    public void setCompetences(String competences) {
+        this.competences = competences;
+    }
+
+    
+    public String getAccueil() {
+        return accueil;
+    }
+   
+    public void setAccueil(String accueil) {
+        this.accueil = accueil;
+    }
+
+    public String getAdresse() {
+        return adresse;
+    }
+
+    public void setAdresse(String adresse) {
+        this.adresse = adresse;
+    }
+
+    public String getTelephoneEntreprise() {
+        return telephoneEntreprise;
+    }
+
+    public void setTelephoneEntreprise(String telephoneEntreprise) {
+        this.telephoneEntreprise = telephoneEntreprise;
+    }
+
+    public String getNomTuteur() {
+        return nomTuteur;
+    }
+
+    public void setNomTuteur(String nomTuteur) {
+        this.nomTuteur = nomTuteur;
+    }
+
+    public String getPrenomTuteur() {
+        return prenomTuteur;
+    }
+
+    public void setPrenomTuteur(String prenomTuteur) {
+        this.prenomTuteur = prenomTuteur;
+    }
+
+    public String getTelephoneTuteur() {
+        return telephoneTuteur;
+    }
+
+    public void setTelephoneTuteur(String telephoneTuteur) {
+        this.telephoneTuteur = telephoneTuteur;
+    }
+
+    public String getEmailTuteur() {
+        return emailTuteur;
+    }
+
+    public void setEmailTuteur(String emailTuteur) {
+        this.emailTuteur = emailTuteur;
+    }
+    
+    
+}
